@@ -1,0 +1,170 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Fandrian Rhamadiansyah}}\\
+  \textbf{Aerospace Engineer | Data Scientist}\\
+  
+  \href{http://github.com/frhamadiansyah}{http://github.com/frhamadiansyah} & Email : \href{mailto:fandrian.rhamadiansyah@gmail.com}{fandrian.rhamadiansyah@gmail.com} \\
+  \href{https://www.linkedin.com/in/fandrian-rhamadiansyah-4ba26469/}{linkedin.com/in/fandrian-rhamadiansyah-4ba26469/} & Mobile : +447487779504 \\
+  London, UK (29 Years Old) & SkypeID : live:fandrian.rhamadiansyah  \\
+\end{tabular*}
+
+%-----------PERSONAL_SUMMARY-----------------
+\section{Personal Summary}
+  \resumeSubHeadingListStart
+  {My background is in Aerospace design and manufacture, doing analysis using a variety of computational and experimental methods, analyzing the result and presenting the data. Now I’m diving deep down into data science and machine learning because I am passionate about optimizing the process and simplifying things. I hope I can return to aerospace industries and bring a different perspective to the table.}
+  \resumeSubHeadingListEnd
+  
+
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {PT. Data Arts Xperience}{Jakarta, Indonesia}
+      {Data Scientist}{Jan 2020 - Mar 2020}
+      \resumeItemListStart
+        \resumeItem
+          {Junior Data Scientist}{PT. Data Arts Xperience is a digital marketing company. tasked with analyzing customer behavior data and delivering useful insight to customers. Using SQL to query data from databases and python to clean up data and create visualizations.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {PT. Dirgantara Indonesia}{Bandung, Indonesia}
+      {Aerodynamics Engineer}{Oct 2013 - Jan 2019}
+      \resumeItemListStart
+        \resumeItem{Project Leader - N219-Amphibian}
+          {Orchestrated a small team of 5 people to design and analyze all aspects of flight physics during the N219 Amphibian development phase. Responsibilities ranging from budgeting, coordinate with the manufacturing team to build test model, delivering technical documents and presenting it to stakeholders.}
+        \resumeItem{Propulsion Analysis Engineer - KF-X/IF-X}
+          {Entrusted with Designing and analyze KFX inlet design. }
+        \resumeItem{Aerodynamics Engineer - N219}
+          {Design and analyze N219 Aerodynamic performance and load using both computational method and experimental method (wind tunnel and flight test). Coordinated with various technical and non-technical team to support the project.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {PT. Arke Global Rekayasa Nusantara (ArkeGlorus)}{Bandung, Indonesia}
+      {Part-time Aerodynamics Engineer}{April 2018 - June 2018}
+      \resumeItemListStart
+        \resumeItem{P-500L SmartBomb}
+          {Working part-time as an aerodynamics engineer on a project basis. Tasked with analyzing aerodynamics and static stability of Indonesia's Air Force P-500L Smartbomb using CFD.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Korea Aerospace Industries}{Sacheon, South Korea}
+      {Propulsion Analysis Engineer}{Sep 2016 - Dec 2017}
+      \resumeItemListStart
+        \resumeItem{KF-X/IF-X}
+          {One of the delegates from PTDI to participate in a joint development program between Indonesia and South Korea in Korea Aerospace Industries headquarter in Sacheon, South Korea. Other than design and analysis task, also routinely present report to team leader from both Indonesian and Korean counterpart.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%
+%-------------------------------------------
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purwadhika Startup and Coding School}{Jakarta, Indonesia}
+      {Job Connector Data Science, non Degree}{Aug. 2019 -- Present}
+      \resumeItemListStart
+        \resumeItem{Data Visualization and Analysis Module}
+          {Manipulate, analyze and visualize data using various python library (numpy, pandas, plotly etc.) and tableau}
+        \resumeItem{Machine Learning Module}
+          {Use various ML model (logistic Regression, Random forest, xgboost etc.) in various common business cases like recommendation system, time series forecasting, NLP, etc.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bandung Institute of Technology}{Bandung, Indonesia}
+      {Bachelor of Engineering in Aerospace Engineering}{Aug. 2008 -- April. 2013}
+  \resumeSubHeadingListEnd
+  
+%-----------PROJECTS-----------------
+% \section{Relevant Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{Twitter Trends Dashboard}
+%       {Create a dashboard that streams sentiment analysis for  each tweets in a certain topics live using a machine learning model trained with tweets in Indonesian language. This is an end-to-end project, from scraping text from twitter, text-cleanup, train machine learning model, displaying and visualizing the result in a dash-plotly dashboard, and deploying it in heroku. To find out more, please scan the QR in the next page. 
+      
+%       Check out https://my-app-frhamadiansyah.herokuapp.com/ to view this app.}
+%   \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills and Abilities}
+ \resumeSubHeadingListStart
+    % \item{
+    %  \textbf{Technical Skill}{: Data Visualization, Data Cleanup, Text mining, NLP}
+    % \item
+    %  \textbf{Technologies}{: Python, Tableau, SQL, HTML, CSS, Numpy, Pandas, Scikit-Learn}
+    % }
+    \item{
+     \textbf{Aerospace Skill}{: Wind tunnel testing, Flight test data analysis, CFD, CAD, FEM, Certification process, Composite manufacturing}
+    \item
+     \textbf{Software Skill}{: ANSYS Fluent, ICEM-CFD, CATIA, Patran, Python, MATLAB, C++, Tableau, SQL, HTML, CSS}
+    }
+ \resumeSubHeadingListEnd
+
+\end{document}
